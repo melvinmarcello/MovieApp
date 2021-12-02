@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: brown;
+  width: 100%;
+  height: 60px;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.navbar-toggler {
+  border: none !important;
+}
+button.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+a.navbar-brand {
+  font-family: viga;
+  font-size: 40px;
+  color: white !important;
+}
+li {
+  list-style: none;
+}
+li[class="nav-item"] {
+  font-size: 20px;
+  color: brown;
+  transition: 0.8s;
+}
+li[class="nav-item"]:hover {
+  font-size: 20px;
+  color: brown !important;
+}
+.container-fluid {
+  margin-top: -15px;
+}
+input {
+  border-radius: 50px !important;
+  outline: none;
+  transition: 0.8s;
+}
+ul li a.nav-link:hover {
+  color: red !important;
+  border-bottom: 2px solid black;
+}
+
+i.bi-person-circle {
+  width: 45px;
+  height: 45px;
+  font-size: 40px;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Quicksand", sans-serif;
+}
+.title {
+  font-size: 30px;
+}
+.syn {
+  font-size: 20px;
+}
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.frme-player {
+  margin-top: 5px;
+  height: 100vh;
+}
+iframe {
+  height: 600px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  max-width: 100%;
+  background-color: brown;
+}
+
+.bi-instagram,
+.bi-twitter,
+.bi-github,
+.bi-linkedin {
+  color: white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+
+.bi-instagram:hover {
+  color: rgb(138, 58, 185);
+}
+.bi-twitter:hover {
+  color: cornflowerblue;
+}
+.bi-linkedin:hover {
+  color: cornflowerblue;
+}
+.bi-github:hover {
+  color: green;
+}
+.bi-heart-fill {
+  color: white;
+}

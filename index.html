@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>Login Page</title>
+  <link rel="icon" href="./img/Logofix1.png" />
+  <link rel="stylesheet" href="./src/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <form class="form" id="login" method="post">
+      <h1 class="form_title">Masuk</h1>
+      <div class="form_message form_message-error"></div>
+      <div class="form_input-group">
+        <label for="username" class="username">Username :</label>
+        <input type="text" name="username" class="form_input" autofocus placeholder="Username" />
+        <div class="form_input-error-message"></div>
+      </div>
+
+      <div class="form_input-group">
+        <label for="password" class="password">password :</label>
+        <input type="password" name="password" class="form_input" autofocus placeholder="Password" />
+        <div class="form_input-error-message"></div>
+      </div>
+    </form>
+    <a class="form_button" name="login" type="submit" href="main.html">Login</a>
+  </div>
+</body>
