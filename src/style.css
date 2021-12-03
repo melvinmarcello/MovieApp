@@ -91,7 +91,7 @@ img.poster {
 }
 iframe {
   height: 250px;
-  width: 400px;
+  width: 80%;
   border-radius: 20px;
   border: 1px solid black;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
