@@ -2,18 +2,17 @@
   display: none;
 }
 ::-webkit-scrollbar-track {
+  width: 0;
   display: none;
 }
-@media only screen and (max-width: 576px) {
-  body {
-    max-width: 100%;
+
+@media (max-width: 576px) {
+  * {
+    width: 100%;
     overflow-x: hidden;
   }
 }
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
+
 .header {
   background-color: brown;
   max-width: 100%;
@@ -55,11 +54,11 @@ li[class="nav-item"]:hover {
   max-width: 100%;
 }
 input {
+  width: 200px;
   border-radius: 50px !important;
   outline: none;
   transition: 0.8s;
 }
-
 ul li a.nav-link:hover {
   color: red !important;
   border-bottom: 2px solid black;

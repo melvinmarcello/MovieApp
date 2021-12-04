@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 function showCards(m) {
   return `
-            <div class="col-xl-3 col-md-4 col-sm-6 mt-3 mb-3">
+            <div class="col-xl-3 col-md-4 col-sm-6  mt-3 mb-3">
               <div class="card">
               <a data-bs-toggle="modal" data-bs-target="#movieDetailModal"  href="#"><img src="${IMGPATH}${m.poster_path}" data-movid=${m.id} class="card-img-top detail-button poster" alt="..."> </a>
                 <div class="card-body">
