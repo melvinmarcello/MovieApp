@@ -54,7 +54,7 @@ li[class="nav-item"]:hover {
   max-width: 100%;
 }
 input {
-  width: 200px;
+  width: 500px;
   border-radius: 50px !important;
   outline: none;
   transition: 0.8s;
