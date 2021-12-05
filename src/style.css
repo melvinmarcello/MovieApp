@@ -54,10 +54,17 @@ li[class="nav-item"]:hover {
   max-width: 100%;
 }
 input {
-  width: 500px;
+  width: 100%;
   border-radius: 50px !important;
   outline: none;
   transition: 0.8s;
+}
+.search-button {
+  margin-top: -8px;
+  width: 50px;
+}
+.bi-search {
+  font-size: 20px;
 }
 ul li a.nav-link:hover {
   color: red !important;
